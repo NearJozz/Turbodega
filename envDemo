@@ -1,0 +1,18 @@
+#HTTP server port
+httpPort = 3000
+
+#Mongo's StringConnection  mongodb://mongodb0.example.com:27017.
+mongodbPath = mongodb://127.0.0.1:27017
+#Mongo's database
+db = turbodegaTest
+
+#Output directory for csv files
+outputCsvOrders = ./csvOrders/
+
+#path to the credentials file for DialogFlow JSON format.
+dialogflowCredentials =./dialogFlowCredentials.json
+
+#Twilio credentials
+twilioAccountSID = <SID>
+twilioAuthToken = <authToken>
+twilioValidNumber =<twilio valid number>
