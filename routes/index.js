@@ -3,7 +3,7 @@ const router = express.Router();
 const ItemCtr = require('./../modules/ItemCtrl.js')
 const OrdersCtrl = require('./../modules/OrdersCtrl.js')
 const DialogFlow_Req= require('./../services/dialogflow_mod.js')
-const Twilio_Mod=require('./../services/Twilio_Mod.js')
+const Twilio_Mod=require('./../services/twilio_mod.js')
 const Twilio_inst=new Twilio_Mod();
 
 //informative project path
